@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    background-image: url("image/boteny4.jpeg");
+    background-size: cover; /* Set background size to cover the entire screen */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background image while scrolling */
+    color: white;
+    
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  header {
+    background-color: hsla(149, 100%, 50%, 0.573);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    padding: 50px 20px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* ... (previous styles) ... */
+
+.apc-info {
+    margin-bottom: 20px;
+  }
+  
+  .message-to-authors {
+    background-color: hwb(167 3% 5% / 0.525); /* Highlight color */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .message-to-authors:hover {
+    background-color: hsla(157, 87%, 44%, 0.543); /* Hover effect color */
+  }
+  
+  .payment-steps {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .payment-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .payment-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
