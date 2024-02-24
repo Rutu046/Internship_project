@@ -1,0 +1,94 @@
+
+.card.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+  .EAB{
+    
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-weight:bold;
+    color: green;
+  }
+/*
+  #card-grid {
+    background-image: url('/image/cardbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    width: 100%; 
+    height: 1100px; 
+  }
+  */
+
+.row1,.row2{
+  
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  padding: 15px;
+  
+}
+
+
+.card {
+  margin-left: 8%;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+    padding-top: 10%;
+    margin-bottom: 40px;
+    border: 1px solid salmon;
+    border-radius: 15px;
+    box-shadow: 0px 4px 3px 3px rgb(91, 185, 91);
+    transition: box-shadow 0.2s ease-in-out;
+    background-color: white;
+    
+  }
+
+  
+  .col{
+    padding-top: 10%;
+  }
+  
+  .card:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 4px 5px 6px skyblue; 
+  }
+  
+  
+  .card-title {
+    padding: 5px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: salmon;
+    text-align: center;
+  }
+  
+  .card-text {
+    color: #666;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .text-body-secondary {
+    color: #888;
+  }
+  
+  
+  .card-img-top{
+    width: 25%;
+    height: 30%;  
+    display: block; 
+    margin: auto;
+  }
+  
+  
+  
